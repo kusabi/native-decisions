@@ -1,3 +1,6 @@
+/.idea
+
+# Auto generated
 node_modules/**/*
 .expo/*
 npm-debug.*
