@@ -1,10 +1,6 @@
 import React from 'react';
-import {Text, View} from 'react-native';
-
-import ButtonPrimary from '../components/ButtonPrimary';
-import Layout from "../components/Layout";
-import QuestionPicker from "../components/QuestionPicker";
-import QuestionCreator from "../components/QuestionCreator";
+import {View} from 'react-native';
+import {Button, Layout, QuestionManager} from "../components";
 
 class Dashboard extends React.Component {
 
@@ -12,8 +8,7 @@ class Dashboard extends React.Component {
         return (
             <Layout>
                 <View>
-                    <QuestionPicker/>
-                    <QuestionCreator/>
+                    <QuestionManager/>
                 </View>
             </Layout>
         );

@@ -1,8 +1,19 @@
-import {ADD_QUESTION, GET_QUESTIONS, RESET_QUESTIONS} from "./actionTypes";
+import {ADD_QUESTION, UPDATE_QUESTION, DELETE_QUESTION, RESET_QUESTIONS} from "./actionTypes";
 
-export const addQuestion = content => ({
+export const addQuestion = (payload) => ({
     type: ADD_QUESTION,
-    payload: content
+    payload
+});
+
+export const updateQuestion = (key, payload) => ({
+    type: UPDATE_QUESTION,
+    key,
+    payload
+});
+
+export const deleteQuestion = (key) => ({
+    type: DELETE_QUESTION,
+    key
 });
 
 

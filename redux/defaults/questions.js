@@ -1,52 +1,43 @@
 export default [
     {
-        key: 'eat-out-or-eat-in',
-        value: 'Go out for food, or order in?',
+        key: 'watch-genre',
+        value: 'What genre should we watch?',
         answers: [
-            {
-                key: 'eat-in',
-                value: 'Order food in'
-            },
-            {
-                key: 'eat-out',
-                value: 'Go out for food'
-            }
+            {key: 'action', value: 'Action'},
+            {key: 'adventure', value: 'Adventure'},
+            {key: 'animation', value: 'Animation'},
+            {key: 'comedy', value: 'Comedy'},
+            {key: 'drama', value: 'Drama'},
+            {key: 'horror', value: 'Horror'},
+            {key: 'thriller', value: 'Thriller'},
         ]
     },
     {
-        key: 'where-to-eat-out',
-        value: 'Where should we go out to eat?',
+        key: 'eat-out-or-in',
+        value: 'Eat out or order in?',
         answers: [
-            {
-                key: 'pub',
-                value: 'Pub'
-            },
-            {
-                key: 'cafe',
-                value: 'Cafe'
-            },
-            {
-                key: 'fast',
-                value: 'Fast food (McDonald\'s, KFC)'
-            }
+            {key: 'eat-out', value: 'Eat out'},
+            {key: 'eat-in', value: 'Order in'},
         ]
     },
     {
-        key: 'where-to-order-from',
+        key: 'eat-out',
+        value: 'Where should we eat out?',
+        answers: [
+            {key: 'pub', value: 'Pub'},
+            {key: 'cafe', value: 'Cafe'},
+            {key: 'restaurant', value: 'Restaurant'},
+            {key: 'fast-food', value: 'Fast food'},
+        ]
+    },
+    {
+        key: 'eat-in',
         value: 'What should we order in?',
         answers: [
-            {
-                key: 'chinese',
-                value: 'Chinese'
-            },
-            {
-                key: 'pizza',
-                value: 'Pizza'
-            },
-            {
-                key: 'kebab',
-                value: 'Kebab'
-            }
+            {key: 'chinese', value: 'Chinese'},
+            {key: 'pizza', value: 'Pizza'},
+            {key: 'kebab', value: 'Kebab'},
+            {key: 'chips', value: 'Fish and Chips'},
         ]
     },
 ];
